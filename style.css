@@ -5,7 +5,7 @@
     font-family: "Roboto", sans-serif;
 }
 .header {
-    padding: 20px 160px;
+    padding: 20px 200px;
     background-color: #1F2937;
     display: flex;
     align-items: center;
@@ -17,7 +17,6 @@
     font-size: 24px;
     font-weight: 900;
     margin-right: auto;
-    padding: 0 48px;
     
 }
 
@@ -27,7 +26,40 @@
 }
 
 .right-links a {
+    text-decoration: none;
+}
+
+.main {
+    background-color: #1F2937;
+    display: flex;
+    padding: 64px 200px;
+    align-items: center;
+    gap: 64px;
+}
+
+.image img {
+    height: auto;
+    width: 500px;   
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 360px;
+}
+
+.content p, .right-links a {
     font-size: 18px;
     color: #E5E7EB;
-    text-decoration: none;
+    margin: 10px 0;
+}
+
+.content button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 10px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 15px;
 }
